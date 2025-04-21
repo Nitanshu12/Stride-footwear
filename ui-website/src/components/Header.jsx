@@ -36,7 +36,7 @@ const Header = ({ scrollToProducts, cartCount }) => {
           className="flex items-center space-x-2 cursor-pointer" 
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
-          {/* <Footprints className="w-8 h-8 text-teal-600" /> */}
+          <Footprints className="w-8 h-8 text-teal-600" />
           <span className={`text-2xl font-semibold ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
             STRIDE
           </span>
