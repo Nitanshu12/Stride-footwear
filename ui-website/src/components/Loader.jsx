@@ -22,7 +22,7 @@ const Loader = () => {
       }}
     >
       <div className="flex flex-col items-center">
-        <Footprints className="w-20 h-20 text-teal-600 animate-pulse" />
+        <Footprints className="w-16 h-16 text-teal-600 animate-pulse" />
         <div className="mt-4 text-2xl font-light text-gray-800">
           STRIDE
         </div>
